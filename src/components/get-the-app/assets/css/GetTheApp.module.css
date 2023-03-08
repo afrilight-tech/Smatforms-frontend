@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.GetTheApp {
+    background-image: linear-gradient(to right, #00b0ea2c, #2f348d60);
+    height: fit-content;
+    display: grid;
+    align-items: center;
+    margin-top: 80px;
+    position: relative;
+    padding: 30px 0px;
+}
+
+
+
+.GetTheAppInner {
+    display: grid;
+    grid-template-columns:1fr;
+    align-items: center;
+}
+
+.GetTheAppBox {
+    width: 80%;
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+}
+
+
+.GetTheAppBox h3 {
+    font-size: 35px;
+    color: #2F338D;
+    margin: 0;
+    text-align: center;
+    /* -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text; */
+    font-family: 'Mulish', serif;
+}
+
+.GetTheAppBox h3 span {
+    color: #00B0EA;
+  
+}
+
+
+.GetTheAppButtons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.GetTheAppBox .GetTheAppLink button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right,  #2F338D,#00B0EA);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.GetTheAppBox button:hover {
+    box-shadow: inset 200px 0 0 0 #2F338D;
+    transition: ease-in 0.5s;
+}
+
+.GetTheAppBox .GetTheAppIcon{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+
+@media screen and (max-width:768px) {
+
+    .GetTheApp {
+        margin-top: 50px;
+    }
+    
+    
+    .GetTheAppInner {
+        grid-template-columns: 1fr;
+    }
+
+    .GetTheAppBox {
+        margin: 20px 0px;
+        width: 85%;
+    }
+
+    .GetTheAppBox h3 {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:539px) {
+
+   
+    .GetTheAppBox h3{
+        font-size: 26px;
+    }
+}

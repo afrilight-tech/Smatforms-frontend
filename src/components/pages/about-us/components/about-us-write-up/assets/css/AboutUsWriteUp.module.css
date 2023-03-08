@@ -1,0 +1,47 @@
+.AboutUsWriteUp {
+    display: grid;
+    padding: 50px 0px;
+}
+
+.AboutUsWriteUpIntro {
+    display: grid;
+    justify-self: center;
+}
+
+.AboutUsWriteUpIntro h3 {
+    font-size: 40px;
+    margin: 0;
+    color: #2F338D;
+}
+
+.AboutUsWriteUpIntro h3 span{
+    color: #00B0EA;
+}
+
+
+.AboutUsWriteUpBox {
+    width: 90%;
+    justify-self: center;
+}
+
+.AboutUsWriteUpBox p {
+font-size: 15px;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .AboutUsWriteUpIntro h3{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:539px) {
+    .AboutUsWriteUpIntro h3 {
+        font-size: 26px;
+    }
+}

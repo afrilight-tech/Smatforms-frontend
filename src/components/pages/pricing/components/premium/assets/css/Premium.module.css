@@ -1,0 +1,151 @@
+.premium{
+  padding: 30px 0px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(176,174,176,1);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(176,174,176,1);
+  box-shadow: 0px 1px 5px 0px rgba(176,174,176,1);
+}
+.premiumInner{
+  text-align: center;
+  display: grid;
+}
+
+.premiumPrice{
+  color:#2F338D ;
+  font-size: 25px;
+  margin-bottom: 5px !important;
+}
+.premiumPrice span{
+  color:#00B0EA;
+}
+
+.premiumTitle{
+  color:#2F338D ;
+  font-size: 30px;
+  margin: 0;
+}
+.premiumTitle span{
+  color:#00B0EA;
+}
+
+
+.premiumInner h4{
+  margin: 10px 0px;
+}
+
+.premiumBox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.premiumInner p{
+
+}
+
+.premiumInfoIcon{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.tooltip {
+
+    display: inline-block;
+   
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(176,174,176,1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(176,174,176,1);
+    box-shadow: 0px 1px 5px 0px rgba(176,174,176,1);
+    
+    background-color: #fefefe;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 0px;
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    top: 80%;
+    right: 0%;
+    margin-left: -60px;
+    font-size: 13px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #fefefe transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+  .premiumInner .premiumLink button {
+    padding: 10px 22px;
+    border-radius: 20px;
+    color: white;
+    background-image:  linear-gradient(to left, #00B0EA, #2F338D);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.premiumInner .premiumLink button:hover {
+    box-shadow: inset 200px 0 0 0 #2F338D;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+
+
+
+  @media screen and (max-width:765px){
+
+    .premiumPrice{
+     font-size: 26px;
+    }
+    
+    .premiumTitle{
+     font-size: 30px;
+    }
+
+
+    .premiumBox p{
+      font-size: 13px;
+    }
+  }
+
+
+  @media screen and (max-width:539px){
+
+    .premiumPrice{
+     font-size: 24px;
+    }
+    
+    .premiumTitle{
+     font-size: 26px;
+    }
+
+    .premiumInner h4{
+      font-size: 15px;
+    }
+
+  }

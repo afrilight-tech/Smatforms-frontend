@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.hero {
+    background-image: linear-gradient(to right, #00b0ea2c, #2f348d60);
+    height: 85vh;
+    border-radius: 0px 0px 100px 0px;
+    display: grid;
+    align-items: center;
+    margin-top: 54px;
+    position: relative;
+}
+
+
+
+.heroInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.heroBox {
+    width: 80%;
+    justify-self: center;
+}
+
+.heroBox img {
+    width: 100%;
+}
+
+.heroBox h3 {
+    font-size: 50px;
+    color: #2F338D;
+    margin: 0;
+    /* -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text; */
+    font-family: 'Mulish', serif;
+}
+
+.heroBox h3 span {
+    color: #00B0EA;
+}
+
+.heroBox p {
+    font-size: 15px;
+    color: #2F338D;
+}
+
+
+.heroBox .heroLink button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right,  #2F338D,#00B0EA);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.heroBox button:hover {
+    box-shadow: inset 200px 0 0 0 #2F338D;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+
+@media screen and (max-width:768px) {
+
+    .hero {
+        margin-top: 49px;
+        height: fit-content;
+        padding: 30px 0px;
+    }
+    
+    
+    .heroInner {
+        grid-template-columns: 1fr;
+    }
+
+    .heroBox {
+        margin: 20px 0px;
+        width: 85%;
+    }
+
+    .heroBox h3 {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:539px) {
+
+   
+    .heroBox h3{
+        font-size: 26px;
+    }
+}

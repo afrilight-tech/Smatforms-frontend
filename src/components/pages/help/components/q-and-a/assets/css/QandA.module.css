@@ -1,0 +1,122 @@
+.QandA {
+    display: grid;
+}
+
+.QandAIntro {
+  
+justify-self: center;
+width: 90%;
+}
+
+.QandAIntro h3 {
+    font-size: 40px;
+    margin: 0;
+    color: #2F338D;
+}
+
+.QandA h3 span{
+    color: #00B0EA;
+}
+
+
+
+
+
+
+.QandAInner{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    width: 90%;
+    justify-self: center;
+
+}
+
+.QandABox{
+    width: 90%;
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+.NotHelp{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.NotHelp h3 {
+    font-size: 40px;
+    margin: 0;
+    color: #2F338D;
+}
+
+.NotHelp h3 span{
+    color: #00B0EA;
+}
+
+
+.NotHelp .NotHelpLink button {
+    padding: 10px 22px;
+    border-radius: 20px;
+    color: white;
+    background-image:  linear-gradient(to left, #00B0EA, #2F338D);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.NotHelp .NotHelpLink button:hover {
+    box-shadow: inset 200px 0 0 0 #2F338D;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .QandAIntro {
+        width: 85%;
+        justify-self: center;
+    }
+
+    .QandAIntro h3{
+        font-size: 30px;
+    }
+
+    .QandAInner{
+        grid-template-columns: 1fr;
+    }
+
+    .NotHelp {
+        width: 90%;
+    }
+
+    .NotHelp h3 {
+        font-size: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width:539px) {
+    .QandAIntro h3 {
+        font-size: 26px;
+    }
+
+    .NotHelp h3 {
+        font-size: 26px;
+    }
+}

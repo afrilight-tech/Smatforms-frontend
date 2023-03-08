@@ -1,0 +1,81 @@
+.pricing{
+padding-top: 120px;
+   display: grid;
+   background-image: url(../images/pricing-image.png);
+   background-attachment: fixed;
+}
+
+.pricingIntro{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricingIntro h3{
+font-size: 40px;
+width: 98%;
+margin: 0;
+justify-self: center;
+margin: 0;
+color: #2F338D;
+}
+
+.pricingIntro h3 span{
+    color: #00B0EA;
+}
+
+
+.pricingIntro p{
+    font-size: 15px;
+    width: 90%;
+    justify-self: center;
+    }
+
+.pricingPlans{
+    width: 80%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+
+.pricingBox{
+    width: 80%;
+    justify-self: center;
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+    .pricingIntro h3{
+    font-size: 30px;
+    width: 90%;
+    }
+
+
+
+
+
+    .pricingPlans{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .pricingBox{
+        margin: 20px 0px;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:539px){
+
+    .pricingIntro h3{
+    font-size: 26px;
+    }
+
+}

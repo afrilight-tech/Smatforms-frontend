@@ -1,0 +1,32 @@
+.formSent {
+    display: grid;
+    padding: 100px 0px;
+}
+
+.formSentBox {
+    width: 70%;
+    justify-items: center;
+    justify-self: center;
+    display: grid;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.formSentIcon {
+    background: linear-gradient(to right, #00B0EA, #2F338D);
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .formSentIcon {
+        padding: 20px;
+        font-size: 30px;
+    }
+}

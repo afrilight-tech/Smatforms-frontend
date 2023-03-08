@@ -1,0 +1,76 @@
+.NotFound{
+    padding: 100PX 0px;
+    background-image: url(../images/404-image.png);
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    place-content: center;
+}
+
+.NotFoundBox{
+    text-align: center;
+}
+.NotFoundBox img{
+    height: 400px;
+border-radius: 50%;
+border: 1px solid #00b0ea2c;
+padding: 5px;
+}
+
+
+.NotFoundBox h3 {
+    font-size: 35px;
+    color: #2F338D;
+    margin: 0;
+    text-align: center;
+    /* -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text; */
+    font-family: 'Mulish', serif;
+}
+
+.NotFoundBox h3 span {
+    color: #00B0EA;
+  
+}
+
+
+
+.NotFoundBox .NotFoundLink button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right,  #2F338D,#00B0EA);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.NotFoundBox button:hover {
+    box-shadow: inset 200px 0 0 0 #2F338D;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .NotFoundBox img{
+        height: 200px;
+    }
+    .NotFoundBox h3{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:539px){
+    .NotFoundBox img{
+        height: 150px;
+    }
+    .NotFoundBox h3{
+        font-size: 26px;
+    }
+}

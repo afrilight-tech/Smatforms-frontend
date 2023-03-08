@@ -1,0 +1,97 @@
+.hero{
+    height: 60vh;
+    }
+    
+    
+    /* the class with the overlay */
+    .hero_inner{
+        background: linear-gradient(to right,#00B0EA, #2F338D);
+        overflow: hidden;
+        position: relative;
+    }
+    
+   
+    .hero_inner .Background{
+        height: 60vh;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: url(../images/contact-hero.jpg);
+        opacity: 0.15;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+
+    /* the the class wrapping texts on the top of the background image */
+    .heroText{
+        position: absolute;
+        top: 0;
+        display: grid;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    }
+    
+
+    /* the inner class wrapping the text */
+    .heroTextInner{
+       padding: 0px 6%;
+    
+    }
+    
+    
+    .heroText .heroTextInner h3{
+        color: #2F338D;
+        font-size: 55px;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .heroText .heroTextInner h3 span{
+        color: #FEFEFE;
+    }
+
+    
+    .heroText .heroTextInner .heroLink button .heroTextIcon{
+        margin-top: 5px;
+        padding: 0;
+        margin-left: 3px;
+    }
+    
+    
+    
+    
+    
+    
+    /* media queries */
+    
+    @media screen and (max-width:768px) {
+        .hero{
+            height:50vh;
+            }
+
+            .hero_inner .Background{
+                height: 50vh;
+            }
+
+        .heroText .heroTextInner h3{
+            font-size: 35px;
+            margin: 0;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width:539px) {
+        .heroText .heroTextInner h3{
+            font-size: 26px;
+            width: 70%;
+        }
+    }
+    
+    @media screen and (max-width:350px) {
+        .heroText .heroTextInner h3{
+            font-size: 26px;
+            width: 50%;
+        }
+    }

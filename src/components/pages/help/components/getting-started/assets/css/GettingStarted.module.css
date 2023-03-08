@@ -1,0 +1,73 @@
+.GettingStarted {
+    display: grid;
+padding-bottom: 80px;
+}
+
+
+
+
+.GettingStartedInner{
+    margin-top: 50px;
+    width: 90%;
+    justify-self: center;
+}
+
+
+
+.GettingStartedInner h3 {
+    font-size: 40px;
+    margin: 0;
+    color: #2F338D;
+}
+
+.GettingStartedInner h3 span{
+    color: #00B0EA;
+}
+
+
+.GettingStartedInner .GettingStartedLink button {
+    padding: 10px 22px;
+    border-radius: 20px;
+    color: white;
+    background-image:  linear-gradient(to left, #00B0EA, #2F338D);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.GettingStartedInner .GettingStartedLink button:hover {
+    box-shadow: inset 200px 0 0 0 #2F338D;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .GettingStartedInner {
+        width: 90%;
+    }
+
+    .GettingStartedInner h3 {
+        font-size: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width:539px) {
+
+
+    .GettingStartedInner h3 {
+        font-size: 26px;
+    }
+}

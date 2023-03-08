@@ -1,0 +1,74 @@
+.LeadToMobileInvoicing {
+    display: grid;
+}
+
+
+
+.LeadToMobileInvoicingBox{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    justify-self: center;
+}
+
+
+
+.LeadToMobileInvoicingBox h3 {
+    font-size: 40px;
+    margin: 0;
+    color: #2F338D;
+}
+
+.LeadToMobileInvoicingBox h3 span{
+    color: #00B0EA;
+}
+
+
+.LeadToMobileInvoicingBox .LeadToMobileInvoicingLink button {
+    padding: 10px 22px;
+    border-radius: 20px;
+    color: white;
+    background-image:  linear-gradient(to left, #00B0EA, #2F338D);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.LeadToMobileInvoicingBox .LeadToMobileInvoicingLink button:hover {
+    box-shadow: inset 200px 0 0 0 #2F338D;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .LeadToMobileInvoicingBox {
+        width: 90%;
+    }
+
+    .LeadToMobileInvoicingBox h3 {
+        font-size: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width:539px) {
+
+
+    .LeadToMobileInvoicingBox h3 {
+        font-size: 26px;
+    }
+}

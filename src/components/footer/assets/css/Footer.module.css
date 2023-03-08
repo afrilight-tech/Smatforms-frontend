@@ -1,0 +1,128 @@
+.footer {
+    padding-bottom: 0px;
+}
+
+.footer_inner {
+    background:  #2F338D;
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    align-items: flex-start;
+
+}
+
+.footer_box {
+    width: 85%;
+    justify-self: center;
+}
+.footer_box_img{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.footer_box img {
+  width: 100%;
+}
+
+.footer_box ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer_box h3{
+    color: #00B0EA;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer_box p{
+    color: white;
+    margin: 10px 0px;
+    font-size: 14px !important;
+    font-family: 'Mulish', serif;
+    display: flex;
+    align-items: center;
+}
+.footer_box a{
+    color: white;
+    font-size: 14px;
+    font-family: 'Mulish', serif;
+}
+
+.footer_box li{
+    color: white;
+    margin: 10px 0px;
+    font-size: 14px;
+    font-family: 'Mulish', serif;
+    position: relative;
+    width: fit-content;
+}
+
+.footer_box li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #00B0EA;
+    border-radius: 40px;
+    transform: scaleX(0);
+    transition: all 0.3s ease-out;
+}
+
+.footer_box li:hover::after {
+    transform: scaleX(1);
+}
+
+
+.footer_box p:hover, .footer_box li:hover, .footer_box a:hover{
+    color: #00B0EA;
+}
+
+.footer p .footerIcon{
+    margin-right: 5px;
+color: #00B0EA;
+}
+
+.footer .copywright{
+background-color:white ;
+}
+
+.footer .copywright hr{
+    border-bottom: 1px solid #b5ebe665 !important;
+    border: none;
+}
+.footer .copywright p{
+    color: #2F338D;
+    margin: 5px 0px;
+    font-size: 12px !important;
+    font-family: 'Mulish', serif; 
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .footer_inner{
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media screen and (max-width:539px) {
+
+    .footer_inner{
+        grid-template-columns: 1fr;
+    }
+    .footer_box img {
+        width: auto;
+        height: 100px;
+      }
+      
+
+}

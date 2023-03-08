@@ -1,0 +1,6 @@
+.home{
+    background-image: url(../images/homepage-image.png);
+    background-attachment: fixed;
+    background-position: center;
+padding-bottom: 100px;
+}
